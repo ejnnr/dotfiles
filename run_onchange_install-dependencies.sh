@@ -45,3 +45,8 @@ if [[ ! -f ~/.vim/colors/solarized.vim ]]; then
 	mkdir -p ~/.vim/colors
 	curl -L https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim --output ~/.vim/colors/solarized.vim
 fi
+
+echo "Installing tpm ..."
+if [[ ! -d ~/.tmux/plugins/tpm ]]; then
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
