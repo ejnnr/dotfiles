@@ -1,3 +1,6 @@
 EDITOR="vim"
 VISUAL="vim"
+PATH="$HOME/bin:$PATH"
+
+source ~/.bashrc
 
